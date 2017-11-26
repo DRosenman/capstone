@@ -1,0 +1,26 @@
+Coursera Data Science Capstone: Word Predictions
+========================================================
+author: Dave
+date: 11/25/2017
+
+Introduction
+========================================================
+
+Coursera's Data Science Specialization Capstone project from Johns Hopkins University is the creation of a shiny data application that can predict the next word in a sentence. 
+
+In order to create the shiny app, creating a data algorithm was required.
+
+Algorithm 
+========================================================
+My algorithm was based on the N-gram model. I used a subset of cleaned data to create an algorithm for predicted the max. likelihood for the next word.
+
+Shiny App
+========================================================
+
+I created a shiny app, which can be found [here](https://daverosenman.shinyapps.io/capstone-r/), that predicts the next word in a non-punctated sentence fragment.
+
+Using the Shiny App
+========================================================
+
+To use the shiny app, simply start typing a sentence fragment in the input field underneath "Enter a sentence fragment"."
+
